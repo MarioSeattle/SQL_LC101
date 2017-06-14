@@ -1,0 +1,10 @@
+CREATE TABLE store(id INTEGER PRIMARY KEY, product TEXT, quantity INTEGER);
+
+INSERT INTO store VALUES (1, "dishes", 15);
+INSERT INTO store VALUES (2, "vacuum", 20);
+INSERT INTO store VALUES (3, "Learn", 30);
+INSERT INTO store VALUES (4, "st", 3);
+
+SELECT * FROM store;
+
+SELECT MAX(quantity) FROM store;
