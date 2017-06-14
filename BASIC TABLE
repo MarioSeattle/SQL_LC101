@@ -1,0 +1,5 @@
+CREATE TABLE libros(id INTEGER PRIMARY KEY, name TEXT, rating INTEGER);
+
+INSERT INTO libros VALUES( 1, "bOOK1", 9);
+INSERT INTO libros VALUES( 2, "bOOK2", 6);
+INSERT INTO libros VALUES( 3, "bOOK3", 9);
